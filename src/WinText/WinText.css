@@ -1,0 +1,40 @@
+#winText{
+    color:white;
+    font-size: 3rem;
+    position: absolute;
+    right: 100px;
+    top: 220px;
+}
+#winBtn{
+    font-size: 3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    right: 70px;
+    top: 350px;
+    font-family: 'lexend';
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(70%);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+#winBtn, #winText{
+    animation: slideIn 1s ease-in-out 0s forwards;
+}
+#winBtn:hover{
+    box-shadow: 0 0 20px black;
+}
+@media screen and (max-width: 1350px) {
+    #winBtn {
+      display: none;
+    }
+    #winText{
+        display: none; 
+    }
+}
