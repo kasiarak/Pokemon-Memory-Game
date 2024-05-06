@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(62, 62, 62);
+  font-family: 'lexend';
+}
+h1{
+  text-align: center;
+  color:white;
+  font-size: 3rem;
+}
+#pokeball{
+  background-image: url('./assets/pokeball.svg');
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-size: cover;
+}

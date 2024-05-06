@@ -1,0 +1,9 @@
+#memory-container{
+    width: 600px;
+    height: 600px;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto; 
+    perspective: 1000px;
+}
