@@ -68,7 +68,6 @@ function MemoryGame(){
         <div id="memory-container">
             {cards}
         </div>
-         
         </>
         
     );
