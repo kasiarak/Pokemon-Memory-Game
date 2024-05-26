@@ -1,8 +1,8 @@
-import './MemoryGame.css'
-import Card from '../Card/Card.jsx'
+import styles from './MemoryGame.module.css'
+import Card from '../Card/Card'
 import { useEffect, useState } from 'react';
 export let clickedCards = [];
-import WinText from '../WinText/WinText.jsx';
+import WinText from '../WinText/WinText'
 
 function MemoryGame(){
     let pokemonIds = []; 
@@ -58,14 +58,13 @@ function MemoryGame(){
             clickedCards[1].style.transform = "rotateY(0)";
         }else{
             setCounter(c => c+1);
-            console.log(counter);
         }
         clickedCards = []; 
     }
     return(
         <>
         {counter === 8 ? <WinText/> : null}
-        <div id="memory-container">
+        <div id={styles.memoryContainer}>
             {cards}
         </div>
          

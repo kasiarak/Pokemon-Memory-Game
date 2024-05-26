@@ -1,5 +1,6 @@
-import './Card.css' 
+import styles from './Card.module.css' 
 import { clickedCards } from '../MemoryGame/MemoryGame';
+
 function Card(props){
     
     function flip(e){
@@ -7,7 +8,7 @@ function Card(props){
         clickedCards.push(box);
         box.style.transform= "rotateY(180deg)";
         if(clickedCards.length === 2){
-            const cards = document.querySelectorAll(".card");
+            const cards = document.querySelectorAll(".memoryCard");
             cards.forEach(card => {
             card.style.pointerEvents = "none";
             });
@@ -20,9 +21,9 @@ function Card(props){
         }
     }
     return(
-        <div className = "card">
-            <div onClick={(e) => flip(e)} className = "front">?</div>
-            <div className = "back"><img className="pokemonImg" src={props.src} alt={props.name} checkcards={props.checkCards}></img></div>
+        <div className ={`${styles.card} memoryCard`}>
+            <div onClick={(e) => flip(e)} className ={styles.front}>?</div>
+            <div className ={styles.back}><img className={styles.pokemonImg} src={props.src} alt={props.name} checkcards={props.checkCards}></img></div>
         </div>
     );
 }
