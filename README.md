@@ -3,13 +3,13 @@
 ###
 
 <div align="center">
-  <img height="250" src="https://tinypic.host/image/Zrzut-ekranu-2024-05-14-083242.D97nY9.png"/>
+  <img height="250" src="https://tinypic.host/images/2024/05/26/Zrzut-ekranu-2024-05-14-083242.png"/>
 </div>
 
 ###
 
 <div align="center">
-  <img height="250" src="https://tinypic.host/image/Zrzut-ekranu-2024-05-14-085308.D97NSu.png"/>
+  <img height="250" src="https://tinypic.host/images/2024/05/26/Zrzut-ekranu-2024-05-14-085308.png"/>
 </div>
 
 ###
