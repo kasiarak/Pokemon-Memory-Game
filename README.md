@@ -1,3 +1,19 @@
+<h2 align="center">Screenshots</h2>
+
+###
+
+<div align="center">
+  <img height="250" src="https://tinypic.host/image/Zrzut-ekranu-2024-05-14-083242.D97nY9"/>
+</div>
+
+###
+
+<div align="center">
+  <img height="250" src="https://tinypic.host/image/Zrzut-ekranu-2024-05-14-085308.D97NSu"/>
+</div>
+
+###
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
