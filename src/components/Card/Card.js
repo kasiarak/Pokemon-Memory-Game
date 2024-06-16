@@ -21,9 +21,9 @@ function Card(props){
         }
     }
     return(
-        <div className ={`${styles.card} memoryCard`}>
-            <div onClick={(e) => flip(e)} className ={styles.front}>?</div>
-            <div className ={styles.back}><img className={styles.pokemonImg} src={props.src} alt={props.name} checkcards={props.checkCards}></img></div>
+        <div className={`${styles.card} memoryCard`}>
+            <div onClick={(e) => flip(e)} className={styles.front}>?</div>
+            <div className={styles.back}><img className={styles.pokemonImg} src={props.src} alt={props.name} checkcards={props.checkCards}></img></div>
         </div>
     );
 }

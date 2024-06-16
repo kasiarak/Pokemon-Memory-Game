@@ -8,7 +8,7 @@ function App() {
       <title>Pokemon Memory Game</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </Head>
-    <h1 id = {styles.heading}>P<span id ={styles.pokeball} alt = "O"></span>KEMON MEMORY GAME</h1>
+    <h1 id={styles.heading}>P<span id={styles.pokeball} alt="O"></span>KEMON MEMORY GAME</h1>
     <MemoryGame/>
     </>
   );

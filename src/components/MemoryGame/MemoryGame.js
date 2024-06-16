@@ -49,7 +49,7 @@ function MemoryGame(){
     const cards = [];
     if(pokemonSrc.length === 16 && pokemonNames.length === 16){
         for(let i = 0; i < 16; i++){
-            cards.push(<Card src ={pokemonSrc[i]} name={pokemonNames[i]} key = {i} checkcards={checkCards}/>); 
+            cards.push(<Card src={pokemonSrc[i]} name={pokemonNames[i]} key={i} checkcards={checkCards}/>); 
         }
     }
     function checkCards(){
